@@ -30,3 +30,13 @@ public class LargestNumber {
 	}
 
 }
+--------------------------------------------------------------------------------------------------------------
+OUTPUT:
+
+Enter the First number:
+20
+Enter the Second number:
+45
+Enter the Third number:
+32
+45 is the largest Number
