@@ -34,3 +34,15 @@ public class HotelTraffic {
 	}
 
 }
+----------------------------------------------------------------------------------------------------------------
+OUTPUT A:
+Enter a number of month:6
+Enter a Room rent:2500
+Enter number of days to stay:2
+Hotel Tariff: RS.6000.00
+
+OUTPUT B:
+Enter a number of month:7
+Enter a Room rent:1500
+Enter number of days to stay:2
+Hotel Tariff: RS.3000.00
