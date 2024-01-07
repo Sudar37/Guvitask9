@@ -22,5 +22,10 @@ public class ReverseString {
 	    	   
 	       }
 	}
+---------------------------------------------------------------------------------------------------------------
+OUTPUT:
+Enter a string to reverse: 
+guvi
+Reverse of the string: ivug
 
 
