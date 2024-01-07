@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class HotelTraffic {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner sc=new Scanner(System.in);
+	Scanner sc=new Scanner(System.in);
 		
-		System.out.printf("Enter a number of month:");
+	System.out.printf("Enter a number of month:");
         int n=sc.nextInt();
         
         System.out.printf("Enter a Room rent:");
@@ -24,15 +24,14 @@ public class HotelTraffic {
         }
         else if(n>12)
         {
-         System.out.println("Invalid Input");
+             System.out.println("Invalid Input");
         }
         else
         {
              System.out.printf("Hotel Tariff: RS.%.2f",r*d);
             
         }
-	}
-
+    }
 }
 ----------------------------------------------------------------------------------------------------------------
 OUTPUT A:
