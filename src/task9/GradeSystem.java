@@ -4,50 +4,50 @@ import java.util.Scanner;
 
 public class GradeSystem {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		 int  marks;    // To hold a test score
+	int  marks;    // To hold a test score
 	      
-		Scanner in = new Scanner(System.in);
+	Scanner in = new Scanner(System.in);
 
-	      System.out.print("Enter your test score : ");
-	      marks = in.nextInt();  // Get the test score.
+	System.out.print("Enter your test score : ");
+	marks = in.nextInt();  // Get the test score.
 
-	      if(marks<50){  
-	          System.out.println("Fail");  
-	      }  
-	      else if(marks>=50 && marks<60)
-	      {  
-	          System.out.println("E grade");  
-	      }  
-	      else if(marks>=60 && marks<70)
-	      {  
-	          System.out.println("D grade");  
-	      }  
-	      else if(marks>=70 && marks<80)
-	      {  
-	          System.out.println("C grade");  
-	      }  
-	      else if(marks>=80 && marks<90)
-	      {  
+	if(marks<50){  
+	      System.out.println("Fail");  
+	}  
+	else if(marks>=50 && marks<60)
+	{  
+	        System.out.println("E grade");  
+	}  
+	else if(marks>=60 && marks<70)
+	{  
+	        System.out.println("D grade");  
+	 }  
+	 else if(marks>=70 && marks<80)
+	{  
+	         System.out.println("C grade");  
+	}  
+	else if(marks>=80 && marks<90)
+	{  
 	          System.out.println("B grade");  
-	      }  
-	      else if(marks>=90 && marks<100)
-	      {  
-	          System.out.println("A grade"); 
-	      }
-	      else if(marks<=100)
-	      {  
-	          System.out.println("S grade");  
-	      }
-	      else
-	      {  
-	          System.out.println("Invalid!");  
-	      
-	      }
-	   }
+	}  
+	else if(marks>=90 && marks<100)
+	{  
+	         System.out.println("A grade"); 
 	}
+	else if(marks<=100)
+	{  
+	        System.out.println("S grade");  
+	}
+	else
+	{  
+	         System.out.println("Invalid!");  
+	      
+	}
+    }
+}
 --------------------------------------------------------------------------------------------------------------
 OUTPUT:
 
